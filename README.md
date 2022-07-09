@@ -1,1 +1,1 @@
-"# home-study" 
+# home-study
