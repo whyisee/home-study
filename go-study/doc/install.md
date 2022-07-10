@@ -27,6 +27,13 @@ https://golang.google.cn/dl/
 
 ## 其他
 
+### go 运行程序的流程
+- go build xxx.go
+- ./xxx
+
+或者直接运行
+- go run xxx.go
+
 ### go install 慢
 使用代理  
 [goproxy](https://github.com/goproxy/goproxy.cn/blob/master/README.zh-CN.md)
@@ -46,3 +53,9 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - go mod init your_project_name         # 这一步是初始化项目
 - go mod tidy                           # 这一步是检测依赖
 - go mod download                       # 这一步是下载依赖 
+
+### go的版本
+- Go团队每年发布两次大版本,一般在二月和8月
+- Go团队承诺对最新的两个Go稳定版提供支持
+
+建议使用最新版
